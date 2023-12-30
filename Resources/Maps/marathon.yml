@@ -66707,6 +66707,17 @@ entities:
       type: GasMiner
     - joinedGrid: 30
       type: AtmosDevice
+- proto: GasMinerPlasma
+  entities:
+  - uid: 20613
+    components:
+    - pos: 26.5,-30.5
+      parent: 30
+      type: Transform
+    - maxExternalPressure: 4000
+      type: GasMiner
+    - joinedGrid: 30
+      type: AtmosDevice
 - proto: GasMinerWaterVapor
   entities:
   - uid: 8692
