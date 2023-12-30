@@ -9457,7 +9457,8 @@ entities:
           0,-3:
             0: 65535
           0,-2:
-            0: 65535
+            0: 57343
+            1: 8192
           0,-1:
             0: 65535
           1,-4:
@@ -10498,7 +10499,7 @@ entities:
             0: 4095
           -21,12:
             0: 63743
-            1: 1792
+            2: 1792
           -20,8:
             0: 65535
           -20,9:
@@ -10569,18 +10570,18 @@ entities:
             0: 44719
           -23,8:
             0: 8191
-            2: 57344
+            3: 57344
           -23,9:
             0: 7967
-            3: 224
-            1: 57344
+            4: 224
+            2: 57344
           -23,10:
             0: 7967
-            1: 224
-            4: 57344
+            2: 224
+            5: 57344
           -23,11:
             0: 65311
-            1: 224
+            2: 224
           -22,8:
             0: 65535
           -22,9:
@@ -10863,6 +10864,21 @@ entities:
           moles:
           - 21.824879
           - 82.10312
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 23.163006
+          - 87.137024
           - 0
           - 0
           - 0
@@ -38793,8 +38809,8 @@ entities:
         immutable: False
         temperature: 293.14963
         moles:
-        - 3.3523011
-        - 12.611038
+        - 2.0141742
+        - 7.577132
         - 0
         - 0
         - 0
@@ -50134,6 +50150,17 @@ entities:
     components:
     - rot: -1.5707963267948966 rad
       pos: -89.5,35.5
+      parent: 1
+      type: Transform
+    - maxExternalPressure: 4000
+      type: GasMiner
+    - joinedGrid: 1
+      type: AtmosDevice
+- proto: GasMinerPlasma
+  entities:
+  - uid: 9263
+    components:
+    - pos: -89.5,43.5
       parent: 1
       type: Transform
     - maxExternalPressure: 4000
@@ -88183,6 +88210,7 @@ entities:
           canMix: False
           canReact: True
           maxVol: 15
+          name: null
           reagents:
           - data: null
             ReagentId: Hyronalin
