@@ -72828,6 +72828,17 @@ entities:
       type: GasMiner
     - joinedGrid: 60
       type: AtmosDevice
+- proto: GasMinerPlasma
+  entities:
+  - uid: 24449
+    components:
+    - pos: -44.5,40.5
+      parent: 60
+      type: Transform
+    - maxExternalPressure: 4000
+      type: GasMiner
+    - joinedGrid: 60
+      type: AtmosDevice
 - proto: GasMinerWaterVapor
   entities:
   - uid: 15206
