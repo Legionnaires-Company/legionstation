@@ -14271,7 +14271,7 @@ entities:
     - pos: -16.5,19.5
       parent: 2
       type: Transform
-    - secondsUntilStateChange: -13533.839
+    - secondsUntilStateChange: -13619.572
       state: Opening
       type: Door
   - uid: 4196
@@ -69562,6 +69562,17 @@ entities:
     components:
     - rot: -1.5707963267948966 rad
       pos: 16.5,-3.5
+      parent: 2
+      type: Transform
+    - maxExternalPressure: 4000
+      type: GasMiner
+    - joinedGrid: 2
+      type: AtmosDevice
+- proto: GasMinerPlasma
+  entities:
+  - uid: 7493
+    components:
+    - pos: 24.5,-3.5
       parent: 2
       type: Transform
     - maxExternalPressure: 4000
