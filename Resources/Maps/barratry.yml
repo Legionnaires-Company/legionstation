@@ -50114,8 +50114,6 @@ entities:
       pos: -89.5,39.5
       parent: 1
       type: Transform
-    - maxExternalPressure: 4000
-      type: GasMiner
     - joinedGrid: 1
       type: AtmosDevice
 - proto: GasMinerNitrogen
@@ -50136,17 +50134,6 @@ entities:
     components:
     - rot: -1.5707963267948966 rad
       pos: -89.5,35.5
-      parent: 1
-      type: Transform
-    - maxExternalPressure: 4000
-      type: GasMiner
-    - joinedGrid: 1
-      type: AtmosDevice
-- proto: GasMinerPlasma
-  entities:
-  - uid: 10842
-    components:
-    - pos: -89.5,43.5
       parent: 1
       type: Transform
     - maxExternalPressure: 4000

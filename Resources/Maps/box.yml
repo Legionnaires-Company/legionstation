@@ -86504,8 +86504,6 @@ entities:
     - pos: 27.5,-55.5
       parent: 8364
       type: Transform
-    -maxExternalPressure: 4500
-      type: GasMiner
     - joinedGrid: 8364
       type: AtmosDevice
 - proto: GasMinerNitrogen
@@ -86530,18 +86528,6 @@ entities:
       type: GasMiner
     - joinedGrid: 8364
       type: AtmosDevice
-- proto: GasMinerPlasma
-  entities:
-  - uid: 15548
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: 27.5,-47.5
-      parent: 8364
-      type: Transform
-    -maxExternalPressure: 4500
-      type: GasMiner
-    - joinedGrid: 8364
-      type: AtmosDevice
 - proto: GasMinerWaterVapor
   entities:
   - uid: 16806
@@ -86549,8 +86535,6 @@ entities:
     - pos: 27.5,-51.5
       parent: 8364
       type: Transform
-    -maxExternalPressure: 4500
-      type: GasMiner
     - joinedGrid: 8364
       type: AtmosDevice
 - proto: GasMixer

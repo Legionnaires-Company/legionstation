@@ -7221,8 +7221,6 @@ entities:
     - pos: 10.5,-15.5
       parent: 407
       type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
     - joinedGrid: 407
       type: AtmosDevice
 - proto: GasMinerOxygen
@@ -7232,8 +7230,6 @@ entities:
     - pos: 10.5,-13.5
       parent: 407
       type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
     - joinedGrid: 407
       type: AtmosDevice
 - proto: GasMixer
