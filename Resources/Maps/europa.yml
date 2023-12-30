@@ -49486,8 +49486,6 @@ entities:
       pos: -4.5,-19.5
       parent: 1
       type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
 - proto: GasMinerNitrogenStation
   entities:
   - uid: 3532
@@ -49496,8 +49494,6 @@ entities:
       pos: -6.5,-19.5
       parent: 1
       type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
 - proto: GasMinerOxygenStation
   entities:
   - uid: 3531
@@ -49506,18 +49502,6 @@ entities:
       pos: -8.5,-19.5
       parent: 1
       type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
-- proto: GasMinerPlasma
-  entities:
-  - uid: 3173
-    components:
-    - rot: -1.5707963267948966 rad
-      pos: -0.5,-19.5
-      parent: 1
-      type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
 - proto: GasMixer
   entities:
   - uid: 4049

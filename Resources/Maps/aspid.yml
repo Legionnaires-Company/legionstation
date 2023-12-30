@@ -61260,8 +61260,6 @@ entities:
     - pos: -0.5,-23.5
       parent: 1
       type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
     - joinedGrid: 1
       type: AtmosDevice
 - proto: GasMinerNitrogenStationLarge
@@ -61271,8 +61269,6 @@ entities:
     - pos: -0.5,-21.5
       parent: 1
       type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
     - joinedGrid: 1
       type: AtmosDevice
 - proto: GasMinerOxygenStationLarge
@@ -61282,19 +61278,6 @@ entities:
     - pos: -0.5,-19.5
       parent: 1
       type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
-    - joinedGrid: 1
-      type: AtmosDevice
-- proto: GasMinerPlasma
-  entities:
-  - uid: 3023
-    components:
-    - pos: -0.5,-27.5
-      parent: 1
-      type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
     - joinedGrid: 1
       type: AtmosDevice
 - proto: GasMixerFlipped

@@ -2658,8 +2658,6 @@ entities:
       pos: 5.5,-27.5
       parent: 1
       type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
 - proto: GasMinerOxygen
   entities:
   - uid: 369
@@ -2668,8 +2666,6 @@ entities:
       pos: 3.5,-27.5
       parent: 1
       type: Transform
-    - maxExternalPressure: 4500
-      type: GasMiner
 - proto: GasMixer
   entities:
   - uid: 370
