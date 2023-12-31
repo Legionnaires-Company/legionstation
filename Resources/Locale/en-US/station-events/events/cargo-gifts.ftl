@@ -15,6 +15,7 @@ cargo-gift-pizza-large = A large pizza party
 
 cargo-gift-eng = Repair Materials
 cargo-gift-vending = Vending machines refills
+cargo-gift-engineering-small = Building Materials
 cargo-gift-cleaning = Cleaning equipment
 cargo-gift-medical-supply = Medical supplies
 cargo-gift-space-protection = Space Hazard Protection
