@@ -75088,6 +75088,20 @@ entities:
       type: Transform
     - maxExternalPressure: 4000
       type: GasMiner
+<<<<<<< HEAD
+=======
+    - joinedGrid: 5350
+      type: AtmosDevice
+- proto: GasMinerPlasma
+  entities:
+  - uid: 26738
+    components:
+    - pos: 68.5,-15.5
+      parent: 5350
+      type: Transform
+    - maxExternalPressure: 4000
+      type: GasMiner
+>>>>>>> master
     - joinedGrid: 5350
       type: AtmosDevice
 - proto: GasMixer
@@ -145912,22 +145926,22 @@ entities:
   entities:
   - uid: 26656
     components:
-    - pos: 61.5,26.5
+    - pos: 67.5,28.5
       parent: 5350
       type: Transform
   - uid: 26657
     components:
-    - pos: 61.5,27.5
+    - pos: 66.5,28.5
       parent: 5350
       type: Transform
   - uid: 26658
     components:
-    - pos: 61.5,14.5
+    - pos: 68.5,28.5
       parent: 5350
       type: Transform
   - uid: 26659
     components:
-    - pos: 61.5,13.5
+    - pos: 69.5,28.5
       parent: 5350
       type: Transform
 - proto: TintedWindow
