@@ -13,6 +13,9 @@
   components:
   - type: Metabolizer
     metabolizerTypes: [Dwarf]
+    groups:
+    - id: Alcohol
+      rateModifier: 0.75
 
 - type: entity
   id: OrganDwarfStomach
