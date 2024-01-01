@@ -13217,13 +13217,15 @@ entities:
       type: Apc
   - uid: 12025
     components:
-    - name: APC Science
+    - name: APC Science West
       type: MetaData
     - pos: -17.5,26.5
       parent: 1
       type: Transform
   - uid: 12026
     components:
+    - name: APC Science East
+      type: MetaData
     - rot: 1.5707963267948966 rad
       pos: -8.5,23.5
       parent: 1
@@ -13260,6 +13262,8 @@ entities:
       type: Transform
   - uid: 12408
     components:
+    - name: APC Evac
+      type: MetaData
     - pos: 41.5,41.5
       parent: 1
       type: Transform
