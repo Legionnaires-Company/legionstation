@@ -215,7 +215,7 @@
   noSpawn: true
   components:
     - type: StationEvent
-      weight: 4
+      weight: 10
       startDelay: 10
       duration: 120
       earliestStart: 20
@@ -225,13 +225,7 @@
       sender: cargo-gift-default-sender
       dest: cargo-gift-dest-eng
       gifts:
-        CrateEngineeringAMEJar: 2
-        CrateVendingMachineRestockHotDrinks: 3
-        CrateVendingMachineRestockBooze: 1
-        CrateVendingMachineRestockNutriMax: 1
-        CrateVendingMachineRestockRobustSoftdrinks: 2
-        CrateVendingMachineRestockVendomat: 1
-        CrateVendingMachineRestockGetmoreChocolateCorp: 1
+        CrateEngineeringAMEJar: 1
         MaterialSteel: 1
         MaterialPlasteel: 1
         MaterialGlass: 1
