@@ -4,6 +4,7 @@ using Content.Server.Atmos.Piping.Unary.Components;
 using Content.Server.Atmos;
 using Content.Server.Atmos.Components;
 using Content.Server.NodeContainer.EntitySystems;
+using Content.Server.Power.Components;
 using Content.Server.NodeContainer.Nodes;
 using Content.Server.NodeContainer;
 using Content.Shared.Atmos.Piping;
@@ -131,7 +132,12 @@ public sealed class HeatExchangerSystem : EntitySystem
             _atmosphereSystem.AddHeat(xfer, -dE);
             _atmosphereSystem.AddHeat(environment, dE);
         }
-
+		var charge = 0f;
+		charge = dER * 25f;
+		if (TryComp<BatteryComponent>(uid, out var batteryComponent))
+        {
+            batteryComponent.CurrentCharge += charge;
+        }
         if (n > 0)
             _atmosphereSystem.Merge(outlet.Air, xfer);
         else
