@@ -41229,6 +41229,8 @@ entities:
       type: Transform
     - maxExternalPressure: 4000
       type: GasMiner
+<<<<<<< HEAD
+=======
     - joinedGrid: 2
       type: AtmosDevice
 - proto: GasMinerPlasma
@@ -41240,6 +41242,7 @@ entities:
       type: Transform
     - maxExternalPressure: 4000
       type: GasMiner
+>>>>>>> be40ae5045d38a32055ffc995548984c8d293c11
     - joinedGrid: 2
       type: AtmosDevice
 - proto: GasMinerWaterVapor

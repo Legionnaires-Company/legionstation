@@ -10821,27 +10821,27 @@ entities:
       type: Transform
   - uid: 3177
     components:
-    - pos: 12.5,10.5
+    - pos: 13.5,11.5
       parent: 31
       type: Transform
   - uid: 3178
     components:
-    - pos: 13.5,10.5
+    - pos: 14.5,9.5
       parent: 31
       type: Transform
   - uid: 3179
     components:
-    - pos: 14.5,10.5
+    - pos: 16.5,11.5
       parent: 31
       type: Transform
   - uid: 3180
     components:
-    - pos: 15.5,10.5
+    - pos: 14.5,10.5
       parent: 31
       type: Transform
   - uid: 3181
     components:
-    - pos: 16.5,10.5
+    - pos: 14.5,12.5
       parent: 31
       type: Transform
   - uid: 3182
@@ -10851,7 +10851,7 @@ entities:
       type: Transform
   - uid: 3183
     components:
-    - pos: 13.5,9.5
+    - pos: 14.5,11.5
       parent: 31
       type: Transform
   - uid: 3185
@@ -15527,6 +15527,11 @@ entities:
   - uid: 11350
     components:
     - pos: 30.5,12.5
+      parent: 31
+      type: Transform
+  - uid: 11381
+    components:
+    - pos: 17.5,11.5
       parent: 31
       type: Transform
 - proto: CableApcStack
@@ -33136,7 +33141,11 @@ entities:
     - pos: 38.5,-5.5
       parent: 31
       type: Transform
+<<<<<<< HEAD
+    - secondsUntilStateChange: -5373.1543
+=======
     - secondsUntilStateChange: -5438.299
+>>>>>>> be40ae5045d38a32055ffc995548984c8d293c11
       state: Closing
       type: Door
   - uid: 4019
@@ -43821,8 +43830,6 @@ entities:
     - pos: 14.5,11.5
       parent: 31
       type: Transform
-    - joinedGrid: 31
-      type: AtmosDevice
     - color: '#0055CCFF'
       type: AtmosPipeColor
   - uid: 5495
@@ -44557,8 +44564,6 @@ entities:
       pos: 16.5,10.5
       parent: 31
       type: Transform
-    - joinedGrid: 31
-      type: AtmosDevice
     - color: '#990000FF'
       type: AtmosPipeColor
   - uid: 5496
