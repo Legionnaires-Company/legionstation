@@ -33141,11 +33141,7 @@ entities:
     - pos: 38.5,-5.5
       parent: 31
       type: Transform
-<<<<<<< HEAD
     - secondsUntilStateChange: -5373.1543
-=======
-    - secondsUntilStateChange: -5438.299
->>>>>>> be40ae5045d38a32055ffc995548984c8d293c11
       state: Closing
       type: Door
   - uid: 4019
