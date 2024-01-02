@@ -1,4 +1,3 @@
-<!-- Please read these guidelines before opening your PR: https://docs.spacestation14.io/en/getting-started/pr-guideline -->
 <!-- The text between the arrows are comments - they will not be visible on your PR. -->
 
 ## About the PR
@@ -30,14 +29,5 @@ List any breaking changes, including namespace, public class/method/field change
 
 **Changelog**
 <!--
-Make players aware of new features and changes that could affect how they play the game by adding a Changelog entry. Please read the Changelog guidelines located at: https://docs.spacestation14.io/en/getting-started/pr-guideline#changelog
--->
-
-<!--
-Make sure to take this Changelog template out of the comment block in order for it to show up.
-:cl:
-- add: Added fun!
-- remove: Removed fun!
-- tweak: Changed fun!
-- fix: Fixed fun!
+Make players aware of new features and changes that could affect how they play the game by adding a Changelog entry.
 -->
