@@ -728,7 +728,17 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: crab
       sprite: Mobs/Animals/crab.rsi
+    - map: ["enum.HumanoidVisualLayers.LHand"]
   - type: Physics
+  - type: Hands
+  - type: Puller
+    needsHands: false
+  - type: UserInterface
+    interfaces:
+    - key: enum.StrippingUiKey.Key
+      type: StrippableBoundUserInterface
+  - type: CanEscapeInventory
+  - type: IgnoreBadFood
   - type: Fixtures
     fixtures:
       fix1:
@@ -754,6 +764,12 @@
     - id: FoodMeatCrab
       amount: 2
   - type: InteractionPopup
+  - type: MeleeWeapon
+    attackRate: 2
+    damage:
+      types:
+        Blunt: 40
+    animation: WeaponArcClaw
     successChance: 0.5
     interactSuccessString: petting-success-crab
     interactFailureString: petting-failure-crab
@@ -1039,15 +1055,15 @@
     # This needs to be moved to boxinggloves
     #knockdownSound: /Audio/Weapons/boxingbell.ogg
   - type: MeleeWeapon
-    attackRate: 1.5
+    attackRate: 2
     damage:
       types:
-        Blunt: 0.4
+        Blunt: 40
     soundHit:
       collection: BoxingHit
     animation: WeaponArcFist
   - type: NPCRetaliation
-    attackMemoryLength: 10
+    attackMemoryLength: 100
   - type: FactionException
   - type: NpcFactionMember
     factions:

@@ -208,3 +208,25 @@
         SecurityRiot: 2
         SecurityRestraints: 2
         SecurityNonLethal: 2
+
+- type: entity
+  id: GiftsEngineeringSmall
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+    - type: StationEvent
+      weight: 10
+      startDelay: 10
+      duration: 120
+      earliestStart: 20
+      maximumPlayers: 10
+    - type: CargoGiftsRule
+      description: cargo-gift-engineering-small
+      sender: cargo-gift-default-sender
+      dest: cargo-gift-dest-eng
+      gifts:
+        CrateEngineeringAMEJar: 1
+        MaterialSteel: 1
+        MaterialPlasteel: 1
+        MaterialGlass: 1
+        EngineeringCableBulk: 1

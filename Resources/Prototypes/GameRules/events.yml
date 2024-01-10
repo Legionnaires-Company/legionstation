@@ -227,8 +227,8 @@
       params:
        volume: -4
     startDelay: 24
-    duration: 60
-    maxDuration: 120
+    duration: 30
+    maxDuration: 90
   - type: PowerGridCheckRule
 
 - type: entity

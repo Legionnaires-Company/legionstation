@@ -62477,13 +62477,7 @@ entities:
     - type: Transform
       pos: 5.5,-37.5
       parent: 60
-- proto: DefaultStationBeaconGravGen
-  entities:
-  - uid: 24449
-    components:
-    - type: Transform
-      pos: -12.5,2.5
-      parent: 60
+      type: Transform
 - proto: DefaultStationBeaconHOPOffice
   entities:
   - uid: 21779

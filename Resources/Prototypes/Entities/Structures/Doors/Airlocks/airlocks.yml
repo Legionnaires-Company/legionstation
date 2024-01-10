@@ -21,6 +21,8 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/atmospherics.rsi
+  - type: WiresPanelSecurity
+    securityLevel: medSecurity
 
 - type: entity
   parent: Airlock

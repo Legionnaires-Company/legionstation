@@ -397,6 +397,12 @@
   placement:
     mode: SnapgridCenter
   components:
+  - type: Battery
+    maxCharge: 100000
+    startingCharge: 0
+  - type: BatteryDischarger
+    # This is JUST a default. It has to be dynamically adjusted to ensure that the battery doesn't discharge "too fast" & run out immediately, while still scaling by input power.
+    activeSupplyRate: 100000
   - type: Rotatable
   - type: Transform
     noRot: false
@@ -415,8 +421,15 @@
   - type: PipeColorVisuals
   - type: AtmosDevice
   - type: HeatExchanger
+    chargeModifier: 3
+  - type: PowerNetworkBattery
+    maxSupply: 1000000000
+    supplyRampTolerance: 1000000000
   - type: NodeContainer
     nodes:
+      input:
+        !type:CableDeviceNode
+        nodeGroupID: HVPower
       inlet:
         !type:PipeNode
         nodeGroupID: Pipe

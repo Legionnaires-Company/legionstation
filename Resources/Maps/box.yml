@@ -86489,13 +86489,6 @@ entities:
     - type: AtmosDevice
       joinedGrid: 8364
 - proto: GasMinerWaterVapor
-  entities:
-  - uid: 16806
-    components:
-    - type: Transform
-      pos: 27.5,-51.5
-      parent: 8364
-    - type: AtmosDevice
       joinedGrid: 8364
 - proto: GasMixer
   entities:
