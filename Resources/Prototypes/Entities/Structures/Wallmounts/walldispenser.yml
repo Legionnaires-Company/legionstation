@@ -4,7 +4,7 @@
   description: Wallmount reagent dispenser.
   placement:
     mode: SnapgridCenter
-    snap: 
+    snap:
     - Wallmount
   components:
   - type: WallMount
@@ -81,3 +81,9 @@
           Quantity: 1000
   - type: ReagentTank
     tankType: Fuel
+  - type: DamageOnToolInteract
+    tools:
+    - Welding
+    weldingDamage:
+      types:
+        Heat: 20
