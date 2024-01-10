@@ -34479,8 +34479,6 @@ entities:
     - pos: 34.5,22.5
       parent: 31
       type: Transform
-    - maxExternalPressure: 4000
-      type: GasMiner
     - joinedGrid: 31
       type: AtmosDevice
 - proto: GasMinerOxygen
@@ -34490,19 +34488,6 @@ entities:
     - pos: 36.5,22.5
       parent: 31
       type: Transform
-    - maxExternalPressure: 4000
-      type: GasMiner
-    - joinedGrid: 31
-      type: AtmosDevice
-- proto: GasMinerPlasma
-  entities:
-  - uid: 11381
-    components:
-    - pos: 42.5,22.5
-      parent: 31
-      type: Transform
-    - maxExternalPressure: 4000
-      type: GasMiner
     - joinedGrid: 31
       type: AtmosDevice
 - proto: GasMinerWaterVapor
