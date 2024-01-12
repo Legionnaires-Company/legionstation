@@ -4201,18 +4201,6 @@ entities:
     - type: Transform
       pos: -10.386757,8.623476
       parent: 4812
-- proto: AdvancedMatterBinStockPart
-  entities:
-  - uid: 6200
-    components:
-    - type: Transform
-      pos: 7.405039,-15.314831
-      parent: 4812
-  - uid: 6201
-    components:
-    - type: Transform
-      pos: 7.701914,-15.330456
-      parent: 4812
 - proto: AirAlarm
   entities:
   - uid: 4981
@@ -26897,6 +26885,23 @@ entities:
     - type: Transform
       pos: -9.517075,-13.504629
       parent: 4812
+- proto: CapacitorStockPart
+  entities:
+  - uid: 6210
+    components:
+    - type: Transform
+      pos: 7.701914,-18.299206
+      parent: 4812
+  - uid: 6211
+    components:
+    - type: Transform
+      pos: 7.451914,-18.299206
+      parent: 4812
+  - uid: 6212
+    components:
+    - type: Transform
+      pos: 7.5679626,-16.149172
+      parent: 4812
 - proto: CaptainIDCard
   entities:
   - uid: 2588
@@ -37059,19 +37064,19 @@ entities:
     - type: Transform
       pos: 5.505315,29.475674
       parent: 4812
+- proto: DrinkGildlagerBottleFull
+  entities:
+  - uid: 2714
+    components:
+    - type: Transform
+      pos: -5.405396,24.535454
+      parent: 4812
 - proto: DrinkGoldenCup
   entities:
   - uid: 2713
     components:
     - type: Transform
       pos: -5.608521,24.832329
-      parent: 4812
-- proto: DrinkGoldschlagerBottleFull
-  entities:
-  - uid: 2714
-    components:
-    - type: Transform
-      pos: -5.405396,24.535454
       parent: 4812
 - proto: DrinkHotCoffee
   entities:
@@ -39821,6 +39826,15 @@ entities:
     components:
     - type: Transform
       pos: -52.5,3.5
+      parent: 4812
+    - type: AtmosDevice
+      joinedGrid: 4812
+- proto: GasMinerPlasma
+  entities:
+  - uid: 12583
+    components:
+    - type: Transform
+      pos: -52.5,9.5
       parent: 4812
     - type: AtmosDevice
       joinedGrid: 4812
@@ -60036,6 +60050,18 @@ entities:
     - type: Transform
       pos: -49.460716,-16.464205
       parent: 4812
+- proto: MatterBinStockPart
+  entities:
+  - uid: 6200
+    components:
+    - type: Transform
+      pos: 7.405039,-15.314831
+      parent: 4812
+  - uid: 6201
+    components:
+    - type: Transform
+      pos: 7.701914,-15.330456
+      parent: 4812
 - proto: MedicalBed
   entities:
   - uid: 7572
@@ -60106,6 +60132,23 @@ entities:
     components:
     - type: Transform
       pos: -10.318397,-25.523932
+      parent: 4812
+- proto: MicroManipulatorStockPart
+  entities:
+  - uid: 6202
+    components:
+    - type: Transform
+      pos: 7.436289,-15.783581
+      parent: 4812
+  - uid: 6203
+    components:
+    - type: Transform
+      pos: 7.623789,-15.783581
+      parent: 4812
+  - uid: 6204
+    components:
+    - type: Transform
+      pos: 7.811289,-15.783581
       parent: 4812
 - proto: MicrophoneInstrument
   entities:
@@ -60235,23 +60278,6 @@ entities:
     components:
     - type: Transform
       pos: -32.481808,-7.2820773
-      parent: 4812
-- proto: NanoManipulatorStockPart
-  entities:
-  - uid: 6202
-    components:
-    - type: Transform
-      pos: 7.436289,-15.783581
-      parent: 4812
-  - uid: 6203
-    components:
-    - type: Transform
-      pos: 7.623789,-15.783581
-      parent: 4812
-  - uid: 6204
-    components:
-    - type: Transform
-      pos: 7.811289,-15.783581
       parent: 4812
 - proto: NitrogenCanister
   entities:
@@ -70640,23 +70666,6 @@ entities:
     components:
     - type: Transform
       pos: -36.5,21.5
-      parent: 4812
-- proto: SuperCapacitorStockPart
-  entities:
-  - uid: 6210
-    components:
-    - type: Transform
-      pos: 7.701914,-18.299206
-      parent: 4812
-  - uid: 6211
-    components:
-    - type: Transform
-      pos: 7.451914,-18.299206
-      parent: 4812
-  - uid: 6212
-    components:
-    - type: Transform
-      pos: 7.5679626,-16.149172
       parent: 4812
 - proto: SurveillanceCameraCommand
   entities:
