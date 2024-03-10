@@ -29812,6 +29812,46 @@ entities:
       - Steel
       - Glass
       - Gold
+- proto: ClosetBase
+  entities:
+  - uid: 11811
+    components:
+    - type: Transform
+      pos: -15.5,0.5
+      parent: 4812
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14957
+        moles:
+        - 1.6033952
+        - 6.031821
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        EntityStorageComponent: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 11812
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: ClosetBombFilled
   entities:
   - uid: 6331
@@ -31371,46 +31411,6 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-- proto: ClosetSteelBase
-  entities:
-  - uid: 11811
-    components:
-    - type: Transform
-      pos: -15.5,0.5
-      parent: 4812
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14957
-        moles:
-        - 1.6033952
-        - 6.031821
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-    - type: ContainerContainer
-      containers:
-        EntityStorageComponent: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 11812
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
 - proto: ClosetWallAtmospherics
   entities:
   - uid: 9099
@@ -32136,6 +32136,11 @@ entities:
     - type: Transform
       pos: -30.568611,-23.475061
       parent: 4812
+  - uid: 11337
+    components:
+    - type: Transform
+      pos: -20.480177,5.5451813
+      parent: 4812
 - proto: ClothingNeckScarfStripedRed
   entities:
   - uid: 11335
@@ -32724,6 +32729,18 @@ entities:
     components:
     - type: Transform
       pos: -30.5,-37.5
+      parent: 4812
+  - uid: 10854
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -20.5,4.5
+      parent: 4812
+  - uid: 10855
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -20.5,3.5
       parent: 4812
   - uid: 11353
     components:
@@ -33442,6 +33459,10 @@ entities:
     - type: Transform
       pos: 19.5,2.5
       parent: 4812
+    - type: Construction
+      containers:
+      - EntityStorageComponent
+      - entity_storage
     - type: EntityStorage
       air:
         volume: 200
@@ -33478,15 +33499,15 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-    - type: Construction
-      containers:
-      - EntityStorageComponent
-      - entity_storage
   - uid: 10705
     components:
     - type: Transform
       pos: -29.5,-9.5
       parent: 4812
+    - type: Construction
+      containers:
+      - EntityStorageComponent
+      - entity_storage
     - type: EntityStorage
       air:
         volume: 200
@@ -33523,15 +33544,15 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-    - type: Construction
-      containers:
-      - EntityStorageComponent
-      - entity_storage
   - uid: 10723
     components:
     - type: Transform
       pos: -39.5,8.5
       parent: 4812
+    - type: Construction
+      containers:
+      - EntityStorageComponent
+      - entity_storage
     - type: EntityStorage
       air:
         volume: 200
@@ -33568,10 +33589,6 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-    - type: Construction
-      containers:
-      - EntityStorageComponent
-      - entity_storage
 - proto: CrateEngineeringCableHV
   entities:
   - uid: 10925
@@ -33579,6 +33596,10 @@ entities:
     - type: Transform
       pos: -50.5,-24.5
       parent: 4812
+    - type: Construction
+      containers:
+      - EntityStorageComponent
+      - entity_storage
     - type: EntityStorage
       air:
         volume: 200
@@ -33615,10 +33636,6 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-    - type: Construction
-      containers:
-      - EntityStorageComponent
-      - entity_storage
 - proto: CrateFilledSpawner
   entities:
   - uid: 3713
@@ -33938,27 +33955,6 @@ entities:
     - type: Transform
       pos: 26.509838,-35.582523
       parent: 4812
-- proto: CryogenicSleepUnit
-  entities:
-  - uid: 10854
-    components:
-    - type: Transform
-      pos: -20.5,5.5
-      parent: 4812
-- proto: CryogenicSleepUnitSpawner
-  entities:
-  - uid: 10855
-    components:
-    - type: Transform
-      pos: -20.5,4.5
-      parent: 4812
-- proto: CryogenicSleepUnitSpawnerLateJoin
-  entities:
-  - uid: 3774
-    components:
-    - type: Transform
-      pos: -20.5,3.5
-      parent: 4812
 - proto: CryoPod
   entities:
   - uid: 1937
@@ -34152,13 +34148,6 @@ entities:
     components:
     - type: Transform
       pos: -15.5,-26.5
-      parent: 4812
-- proto: DefaultStationBeaconCryosleep
-  entities:
-  - uid: 10856
-    components:
-    - type: Transform
-      pos: -23.5,4.5
       parent: 4812
 - proto: DefaultStationBeaconDetectiveRoom
   entities:
@@ -39837,6 +39826,15 @@ entities:
     components:
     - type: Transform
       pos: -52.5,3.5
+      parent: 4812
+    - type: AtmosDevice
+      joinedGrid: 4812
+- proto: GasMinerPlasma
+  entities:
+  - uid: 12583
+    components:
+    - type: Transform
+      pos: -52.5,9.5
       parent: 4812
     - type: AtmosDevice
       joinedGrid: 4812
@@ -69697,6 +69695,13 @@ entities:
     - type: Transform
       pos: 53.5,-36.5
       parent: 4812
+- proto: SpaceVillainArcadeFilled
+  entities:
+  - uid: 3774
+    components:
+    - type: Transform
+      pos: -21.5,5.5
+      parent: 4812
 - proto: SpawnMobAlexander
   entities:
   - uid: 12426
@@ -71779,6 +71784,11 @@ entities:
     components:
     - type: Transform
       pos: -43.5,-7.5
+      parent: 4812
+  - uid: 10856
+    components:
+    - type: Transform
+      pos: -20.5,5.5
       parent: 4812
   - uid: 10857
     components:

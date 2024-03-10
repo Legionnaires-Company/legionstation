@@ -57,6 +57,7 @@ namespace Content.IntegrationTests.Tests
             "Box",
             "Europa",
             "Saltern",
+			"Barratry",
             "Core",
             "Marathon",
             "Gemini",
