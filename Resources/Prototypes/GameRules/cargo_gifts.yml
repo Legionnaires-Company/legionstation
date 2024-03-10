@@ -225,7 +225,6 @@
       sender: cargo-gift-default-sender
       dest: cargo-gift-dest-eng
       gifts:
-        CrateEngineeringAMEJar: 1
         MaterialSteel: 1
         MaterialPlasteel: 1
         MaterialGlass: 1

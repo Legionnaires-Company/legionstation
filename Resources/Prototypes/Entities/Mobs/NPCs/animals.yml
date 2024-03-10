@@ -832,18 +832,18 @@
     - id: FoodMeatCrab
       amount: 2
   - type: InteractionPopup
-  - type: MeleeWeapon
-    attackRate: 2
-    damage:
-      types:
-        Blunt: 40
-    animation: WeaponArcClaw
     successChance: 0.5
     interactSuccessString: petting-success-crab
     interactFailureString: petting-failure-crab
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Voice/Arachnid/arachnid_chitter.ogg
+  - type: MeleeWeapon
+    attackRate: 2
+    damage:
+      types:
+        Blunt: 40
+    animation: WeaponArcClaw
   - type: ReplacementAccent
     accent: crab
   - type: Bloodstream
