@@ -138,16 +138,16 @@ public sealed class HeatExchangerSystem : EntitySystem
             _atmosphereSystem.AddHeat(xfer, -dE);
             _atmosphereSystem.AddHeat(environment, dE);
         }
-		var charge = 0f;
-		charge = dER * 25f;
-		if (TryComp<BatteryComponent>(uid, out var batteryComponent))
-        {
-            batteryComponent.CurrentCharge += charge;
-        }
-        if (n > 0)
-            _atmosphereSystem.Merge(outlet.Air, xfer);
-        else
-            _atmosphereSystem.Merge(inlet.Air, xfer);
+		//var charge = 0f;
+		//charge = dER * 25f;
+		//if (TryComp<BatteryComponent>(uid, out var batteryComponent))
+        //{
+        //    batteryComponent.CurrentCharge += charge;
+        //}
+        //if (n > 0)
+        //    _atmosphereSystem.Merge(outlet.Air, xfer);
+        //else
+        //    _atmosphereSystem.Merge(inlet.Air, xfer);
 
     }
 }
