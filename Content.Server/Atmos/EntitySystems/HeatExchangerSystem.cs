@@ -144,10 +144,10 @@ public sealed class HeatExchangerSystem : EntitySystem
         //{
         //    batteryComponent.CurrentCharge += charge;
         //}
-        //if (n > 0)
-        //    _atmosphereSystem.Merge(outlet.Air, xfer);
-        //else
-        //    _atmosphereSystem.Merge(inlet.Air, xfer);
+        if (n > 0)
+            _atmosphereSystem.Merge(outlet.Air, xfer);s
+        else
+            _atmosphereSystem.Merge(inlet.Air, xfer);
 
     }
 }
