@@ -41,13 +41,8 @@
   cost:
     Telecrystal: 1
   categories:
-<<<<<<< HEAD
-  - UplinkWeapons
-  
-=======
   - UplinkWeaponry
-
->>>>>>> upstream/master
+  
 - type: listing
   id: UplinkEsword
   name: uplink-esword-name

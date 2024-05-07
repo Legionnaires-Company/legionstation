@@ -141,7 +141,10 @@ public sealed class HeatExchangerSystem : EntitySystem
             _atmosphereSystem.AddHeat(environment, dE);
         }
 		var charge = 0f;
-		charge = dER * 25f;
+		//Best IRL is Bismuth Telluride with 0.0003f. This means a burn chamber can only produce 14W
+		//Tritsteel has a coefficient of 0.09f
+		var SeebeckCoefficient = 0.09f;
+		charge = dTR * SeebeckCoefficient;
 		if (TryComp<BatteryComponent>(uid, out var batteryComponent))
         {
 			_battery.SetCharge(uid, batteryComponent.CurrentCharge + charge);

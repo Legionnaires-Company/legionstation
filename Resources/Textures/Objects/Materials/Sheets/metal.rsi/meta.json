@@ -91,6 +91,23 @@
     {
       "name": "titanium-inhand-right",
       "directions": 4
+    },
+	{
+      "name": "tritsteel"
+    },
+    {
+      "name": "tritsteel_2"
+    },
+    {
+      "name": "tritsteel_3"
+    },
+    {
+      "name": "tritsteel-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "tritsteel-inhand-right",
+      "directions": 4
     }
   ]
 }

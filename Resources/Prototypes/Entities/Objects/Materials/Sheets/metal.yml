@@ -229,3 +229,68 @@
   - type: Stack
     stackType: Plasteel
     count: 1
+
+- type: entity
+  parent: SheetMetalBase
+  id: TritSteel
+  name: TritSteel
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      TritSteel: 100
+  - type: Stack
+    stackType: TritSteel
+    baseLayer: base
+    layerStates:
+    - tritsteel
+    - tritsteel_2
+    - tritsteel_3
+  - type: Sprite
+    state: tritsteel_3
+    layers:
+    - state: tritsteel_3
+      map: ["base"]
+  - type: Item
+    heldPrefix: trit steel
+  - type: Appearance
+  - type: FloorTile
+    outputs:
+    - Plating
+  - type: Extractable
+    grindableSolutionName: tritsteel
+  - type: SolutionContainerManager
+    solutions:
+      tritsteel:
+        reagents:
+        - ReagentId: Tritium
+          Quantity: 1
+        - ReagentId: Iron
+          Quantity: 8
+        - ReagentId: Carbon
+          Quantity: 1
+    
+- type: entity
+  parent: TritSteel
+  id: TritSteel10
+  name: TritSteel
+  suffix: 10
+  components:
+  - type: Sprite
+    state: tritsteel
+  - type: Stack
+    stackType: TritSteel
+    count: 10
+
+- type: entity
+  parent: TritSteel
+  id: TritSteel1
+  name: TritSteel
+  suffix: Single
+  components:
+  - type: Sprite
+    state: tritsteel
+  - type: Stack
+    stackType: TritSteel
+    count: 1

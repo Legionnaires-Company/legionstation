@@ -32,12 +32,5 @@ public sealed partial class HeatExchangerComponent : Component
     [ViewVariables(VVAccess.ReadWrite)]
     [DataField("radiationCoefficient")]
     public float alpha { get; set; } = 140f;
-	
-	/// <summary>
-	/// How much joules will collector generate for each K.
-    /// </summary>
-    [DataField("chargeModifier")]
-    [ViewVariables(VVAccess.ReadWrite)]
-    public float ChargeModifier = 3f;
 }
 

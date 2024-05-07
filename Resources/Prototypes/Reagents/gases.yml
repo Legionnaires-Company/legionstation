@@ -89,6 +89,8 @@
   physicalDesc: reagent-physical-desc-ionizing
   flavor: bitter
   color: "#66ff33"
+  boilingPoint: -183.0
+  meltingPoint: -218.4
   tileReactions:
   - !type:FlammableTileReaction
     temperatureMultiplier: 2.0
