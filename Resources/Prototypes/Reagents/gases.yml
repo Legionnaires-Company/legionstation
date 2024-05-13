@@ -106,7 +106,7 @@
       - !type:HealthChange
         damage:
           types:
-            Radiation: 150
+            Radiation: 6
     Gas:
       effects:
       - !type:HealthChange

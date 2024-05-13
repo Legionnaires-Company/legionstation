@@ -253,7 +253,7 @@
     - state: tritsteel_3
       map: ["base"]
   - type: Item
-    heldPrefix: trit steel
+    heldPrefix: tritsteel
   - type: Appearance
   - type: FloorTile
     outputs:
