@@ -21,3 +21,11 @@
   spawn: SheetBrass1
   maxCount: 30
   itemSize: 1
+
+- type: stack
+  id: TritSteel
+  name: tritsteel
+  icon: {  sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: tritsteel }
+  spawn: SheetTritSteel1
+  maxCount: 30
+  itemSize: 1
