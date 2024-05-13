@@ -232,16 +232,16 @@
 
 - type: entity
   parent: SheetMetalBase
-  id: TritSteel
-  name: TritSteel
+  id: tritsteel
+  name: tritsteel
   suffix: Full
   components:
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      TritSteel: 100
+      tritsteel: 100
   - type: Stack
-    stackType: TritSteel
+    stackType: tritsteel
     baseLayer: base
     layerStates:
     - tritsteel
@@ -272,25 +272,25 @@
           Quantity: 1
     
 - type: entity
-  parent: TritSteel
-  id: TritSteel10
-  name: TritSteel
+  parent: tritsteel
+  id: tritsteel10
+  name: tritsteel
   suffix: 10
   components:
   - type: Sprite
     state: tritsteel
   - type: Stack
-    stackType: TritSteel
+    stackType: tritsteel
     count: 10
 
 - type: entity
-  parent: TritSteel
-  id: TritSteel1
-  name: TritSteel
+  parent: tritsteel
+  id: tritsteel1
+  name: tritsteel
   suffix: Single
   components:
   - type: Sprite
     state: tritsteel
   - type: Stack
-    stackType: TritSteel
+    stackType: tritsteel
     count: 1

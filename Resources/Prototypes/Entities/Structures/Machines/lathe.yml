@@ -84,7 +84,7 @@
     idleState: icon
     runningState: building
     staticRecipes:
-      - TritSteel30
+      - tritsteel30
       - Wirecutter
       - Igniter
       - Signaller

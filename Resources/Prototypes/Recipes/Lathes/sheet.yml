@@ -176,18 +176,3 @@
   completetime: 1
   materials:
     Wood: 50
-    
-- type: latheRecipe
-  id: TritSteel30
-  result: TritSteel
-  completetime: 2
-  materials:
-    Steel: 3000
-    Tritium: 3000
-    
-- type: latheRecipe
-  id: SheetTritium30
-  result: SheetTritium
-  completetime: 2
-  materials:
-    RawTritium: 3000

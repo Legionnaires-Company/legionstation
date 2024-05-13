@@ -40,9 +40,9 @@
   price: 0.28 # 1-1 mix of plasma and steel.
   
 - type: material
-  id: TritSteel
-  stackEntity: TritSteel1
-  name: materials-TritSteel
+  id: tritsteel
+  stackEntity: tritsteel1
+  name: materials-tritsteel
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: tritsteel }
   color: "#66FF33"
   price: 8.5
