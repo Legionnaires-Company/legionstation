@@ -232,7 +232,7 @@
 
 - type: entity
   parent: SheetMetalBase
-  id: tritsteel
+  id: SheetTritSteel
   name: tritsteel
   suffix: Full
   components:
@@ -241,7 +241,7 @@
     materialComposition:
       tritsteel: 100
   - type: Stack
-    stackType: tritsteel
+    stackType: TritSteel
     baseLayer: base
     layerStates:
     - tritsteel
@@ -259,7 +259,7 @@
     outputs:
     - Plating
   - type: Extractable
-    grindableSolutionName: tritsteel
+    grindableSolutionName: TritSteel
   - type: SolutionContainerManager
     solutions:
       tritsteel:
@@ -270,27 +270,28 @@
           Quantity: 8
         - ReagentId: Carbon
           Quantity: 1
+        canReact: false
     
 - type: entity
-  parent: tritsteel
-  id: tritsteel10
+  parent: SheetTritSteel
+  id: SheetTritSteel10
   name: tritsteel
   suffix: 10
   components:
   - type: Sprite
     state: tritsteel
   - type: Stack
-    stackType: tritsteel
+    stackType: TritSteel
     count: 10
 
 - type: entity
-  parent: tritsteel
-  id: tritsteel1
+  parent: SheetTritSteel
+  id: SheetTritSteel1
   name: tritsteel
   suffix: Single
   components:
   - type: Sprite
     state: tritsteel
   - type: Stack
-    stackType: tritsteel
+    stackType: TritSteel
     count: 1

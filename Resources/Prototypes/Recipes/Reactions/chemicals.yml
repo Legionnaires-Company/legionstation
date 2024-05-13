@@ -503,14 +503,14 @@
     Tazinide: 1
 
 - type: reaction
-  id: tritsteel
+  id: TritSteel
   reactants:
     Iron:
-      amount: 5
+      amount: 4
     Carbon:
       amount: 2
     Tritium:
-      amount: 5
+      amount: 4
   effects:
     - !type:CreateEntityReactionEffect
-      entity: tritsteel
+      entity: TritSteel
